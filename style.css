@@ -1,0 +1,186 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+
+background-color: rgb(212, 223, 233);
+/* overflow-x: hidden; */
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+display: flex;
+gap: 300px;
+justify-content: space-around;
+margin: 0px auto;
+    padding: 10px 110px;
+}
+ul{
+text-align: center;
+position: relative;
+
+}
+li{
+    padding: 10px;
+list-style: none;
+display: inline;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.container{
+    
+}
+.section-box{
+   
+    gap: 200px;
+    
+    height: 450px;
+display: flex;
+background-color: rgb(246, 250, 253);
+width: 100%;
+margin: 0px auto;
+    padding: 0px 110px;
+overflow-x: hidden;
+}
+.left-section{
+    padding-top: 100px;
+    padding-left:10px ;
+}
+.left-section p{
+width: 300px;
+
+}
+.left-section h2{
+font-size: xx-large;
+width: 400px;
+}
+.right-section{
+
+display: flex;
+
+left: 600px;
+}
+.over-flow{
+    position: relative;
+height: 450px;
+overflow: hidden;
+
+}
+.img-2{
+
+position :absolute;
+width: 800px;
+height: 600px;
+overflow: hidden;
+right: 0px;
+
+}
+.section-box2{
+
+/* display: flex; */
+width: 100%;
+
+margin: 0px auto;
+    padding: 100px 110px;
+
+}
+.section-text2{
+display: block;
+}
+.thebig{
+display: flex;
+gap: 30px;
+
+}
+.container-box{
+
+    position: relative;
+display: inline-block;
+top: 30px;
+}
+.container-box img{
+left: 20px;
+position: relative;
+}
+.container-box p{
+width: 300px;
+}
+.box3{
+
+width: 100%;
+margin: 0px auto;
+    padding: 100px 110px;
+    background-color: aliceblue;
+
+}
+
+.card{
+margin-top: 50px;
+background-color: rgb(255, 255, 255);
+border-radius: 7%;
+}
+.card img{
+width: 300px;
+height: 200px;
+object-fit: cover;
+border-radius: 7% 7% 0% 0%;
+}
+.card h5,p,h3{
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 10px;
+
+}
+.card h5{
+padding-top: 30px;
+}
+.card a:hover{
+color: rgb(129, 227, 171);
+}
+.foot{
+background-color: #2D314E;
+width: 100%;
+margin: 0px auto;
+padding: 100px 110px;
+display: flex;
+gap: 300px;
+}
+.foo-left{
+display: block;
+}
+.icons{
+    display: inline;
+    padding: 5px;
+ 
+}
+button{
+width: 130px;
+height: 35px;
+background-image: linear-gradient(to right, #84E1A8,#81D5DF);
+border-radius: 25px;
+border: none;
+padding: 5px;
+}
+button a{
+    color: aliceblue;
+    font-weight: bold;
+}
+.foot-right{
+position: relative;
+
+}
+.foot-mid li{
+display: block;
+
+}
+.foot-mid ul{
+display: inline-block;
+
+}
+.foot-mid a{
+color: aliceblue;
+}
